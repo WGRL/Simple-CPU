@@ -1,0 +1,8 @@
+| Plik              | Co zawiera                                                |
+| ----------------- | --------------------------------------------------------- |
+| `processor_top.v` | instancje RAM, ALU, rejestrów, kontrolera, magistrale     |
+| `alu.v`           | operacje arytmetyczne/logiczne                            |
+| `regfile.v`       | rejestry ogólnego przeznaczenia                           |
+| `ram.v`           | pamięć danych / instrukcji                                |
+| `control.v`       | dekoder instrukcji, generacja sygnałów sterujących        |
+| `processor_tb.v`  | testbench, inicjalizacja wejść, zegar, obserwacja wyników |
